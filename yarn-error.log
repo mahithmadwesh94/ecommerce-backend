@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add stripe
+
+PATH: 
+  C:\Users\Mahith\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mahith\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\OpenJDK\openjdk-8u292-b10\bin;C:\Users\Mahith\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Mahith\AppData\Local\Programs\Python\Python39;C:\Users\Mahith\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahith\AppData\Local\Yarn\bin;C:\Users\Mahith\AppData\Roaming\npm;C:\Users\Mahith\AppData\Local\Android\Sdk\platform-tools;C:\adb;C:\Users\Mahith\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Mahith\AppData\Local\Programs\Python\Python39;C:\Users\Mahith\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahith\AppData\Local\Yarn\bin;C:\Users\Mahith\AppData\Roaming\npm;C:\Users\Mahith\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mahith\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Portfolio website\Projects\e-commerce-site\api\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.0.12",
+      "nodemon": "^2.0.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
